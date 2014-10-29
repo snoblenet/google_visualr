@@ -1,4 +1,4 @@
-# GoogleVisualr
+# GoogleVisualr_nonloading
 
 [<img src="https://secure.travis-ci.org/winston/google_visualr.png?branch=master" alt="Build Status" />](http://travis-ci.org/winston/google_visualr)
 
@@ -7,6 +7,8 @@ GoogleVisualr, is a wrapper around the [Google Chart Tools](http://code.google.c
 It's good for any Ruby (Rails/Sinatra) setup, and you can handle the entire charting logic in Ruby.
 
 Please refer to the [GoogleVisualr API Reference site](http://googlevisualr.heroku.com/) for a complete list of Google charts that you can create with GoogleVisualr.
+
+This fork of GoogleVisualr does not load packages automatically. Instead, the user must load them manually following [Google's autoloading instructions] (https://developers.google.com/chart/interactive/docs/library_loading_enhancements).
 
 ## tl:dr
 
